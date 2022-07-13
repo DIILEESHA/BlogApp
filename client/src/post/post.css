@@ -1,0 +1,60 @@
+.allpost {
+  margin: 0px 90px 30px 25px;
+  width: 390px;
+  background-color: #000;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid white;
+  border-radius: 0px;
+}
+.postimg {
+  margin-left: 0px;
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+  border-radius: 0px;
+  border-bottom: 1px solid white;
+}
+.postspan {
+  font-family: "Explora", cursive;
+  font-weight: 600;
+  letter-spacing: 3px;
+  font-size: 19px;
+  color: rgb(236, 232, 232);
+  margin-top: 10px;
+  margin-left: 10px;
+  text-align: center;
+  border-bottom: 1px solid rgb(233, 230, 230);
+}
+.postpan1 {
+}
+
+.postpar {
+  color: aliceblue;
+  line-height: 25px;
+  margin-left: 10px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  margin-top: 10px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: 300;
+}
+.posttimelapse {
+  color: aliceblue;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.postpan1{
+    color: aliceblue;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 700;
+    margin-top: 3px;
+}

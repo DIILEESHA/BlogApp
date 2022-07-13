@@ -1,0 +1,85 @@
+.details {
+  display: flex;
+  background-color: #000;
+  color: aliceblue;
+/* margin-top: -10px; */
+  overflow: hidden;
+}
+
+.middetails {
+  flex: 9;
+  flex-direction: column;
+}
+.detailspack {
+  display: flex;
+  flex-direction: column;
+  margin: 50px 40px;
+  padding-top: -49px;
+}
+.updatespan {
+  font-size: 30px;
+  font-style: "poppins", sans-serif;
+  font-weight: 500;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-top: 10px;
+  margin: 10px;
+}
+.profile {
+  font-size: 15px;
+  margin-top: 10px;
+  font-style: "poppins", sans-serif;
+  font-weight: 300;
+  margin: 10px;
+}
+.userimg {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+  margin: 10px;
+}
+.all > input {
+  margin: 10px;
+  border: none;
+  padding-top: -10px;
+  width: 900px;
+  height: 40px;
+  background-color: rgb(247, 240, 240);
+  outline: none;
+}
+.all > label {
+  margin: 10px;
+  padding-top: -10px;
+  border: none;
+  width: 900px;
+  height: 40px;
+  background-color: rgb(10, 10, 10);
+  outline: none;
+}
+.sadak {
+  float: left;
+  margin-top: -66px;
+  margin-left: 130px;
+  font-size: 20px;
+  color: rgb(236, 231, 227);
+  cursor: pointer;
+}
+.userbtn{
+    width:200px;
+  height: 50px;
+  border-radius: 4px;
+  font-size: 20px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 600;
+  margin: 10px;
+  cursor: pointer;
+  background-color: teal;
+  color: #fff;
+  cursor: pointer;
+  text-transform: uppercase;
+}

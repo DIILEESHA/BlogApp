@@ -1,0 +1,46 @@
+.mainheader {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow-y: hidden;
+  margin-top: -20px;
+  
+}
+.headersm {
+  position: absolute;
+  margin-top: -250px;
+  color: rgb(212, 195, 195);
+  font-family: "Explora", cursive;
+  font-weight: 500;
+  font-size: 70px;
+  padding-left: 140px;
+  border-top: 1px solid rgb(243, 237, 237);
+}
+.headerlg {
+  color: rgb(212, 195, 195);
+  position: absolute;
+  margin-top: 70px;
+  font-size: 90px;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  margin-top: -90px;
+  padding-left: 190px;
+  border-bottom: 3px solid rgb(236, 230, 230);
+}
+.headerimg {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+}
+.ball{
+width: 10px;
+height: 10px;
+border-radius: 50%;
+background-color: rgb(233, 230, 230);
+position: absolute;
+margin: 10px;
+margin-top: -30px;
+margin-left: 601px;
+}

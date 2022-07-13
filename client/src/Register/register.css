@@ -1,0 +1,94 @@
+.reg1 {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 90vh;
+  background: 
+    url("https://images.pexels.com/photos/807598/pexels-photo-807598.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  color: aliceblue;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.smreg {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 500px;
+  height: 400px;
+  margin: 100px 0px 0px 400px;
+}
+.userreg {
+  background-color: rgba(0, 0, 0, 0.8);
+  margin-top: 10px;
+}
+.pwdreg {
+  background-color: rgba(0, 0, 0, 0.8);
+  margin-top: 20px;
+}
+
+.regspan {
+  margin-top: -10px;
+  font-size: 40px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-style: "poppins", sans-serif;
+}
+.userlog {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.smreg > input {
+  width: 300px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  color: #fff;
+  letter-spacing: 1px;
+  font-weight: 500;
+  font-size: 14px;
+  margin-top: 20px;
+}
+.logreg {
+  margin-top: 30px;
+  width: 300px;
+  height: 30px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  color: rgb(245, 236, 236);
+  background-color: teal;
+  letter-spacing: 1px;
+  font-weight: 800;
+  font-size: 18px;
+}
+.smreg > ::placeholder {
+  font-size: 14px;
+  padding: 10px;
+  font-weight: 400;
+  color: rgb(172, 166, 166);
+}
+.reg {
+  margin-top: 10px;
+  font-style: "poppins";
+  font-weight: 300;
+  font-size: 14px;
+  border-radius: 10px;
+}
+.signbtn {
+  border: none;
+  background-color: transparent;
+  font-style: "poppins";
+  font-weight: 300;
+  color: #fff;
+  font-size: 14px;
+  padding: 0px 10px;
+  cursor: pointer;
+  border-radius: 10px;
+  text-decoration: none;
+}
