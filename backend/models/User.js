@@ -13,6 +13,8 @@ const UserSchema = new mongoose.Schema({
   password: {
     type: String,
     required: true,
+    min: 5,
+    max: 6,
   },
   profileimg: {
     type: String,
@@ -20,4 +22,4 @@ const UserSchema = new mongoose.Schema({
   },
 });
 
-module.exports = mongoose.model("User", UserSchema);
+export default mongoose.model("User", UserSchema);
