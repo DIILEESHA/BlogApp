@@ -16,3 +16,4 @@ posts.
 ✨ All the data stored in document-oriented NoSQL database in mongoDB . It faster than sql DB and powerful way to store data and retrive data.
 
 ✨ Frontend server run as port 3000 & backend run port 8000.
+<hr>
