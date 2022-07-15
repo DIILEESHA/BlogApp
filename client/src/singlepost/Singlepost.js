@@ -1,6 +1,6 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
-import { useLocation } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import "./singlepost.css";
 
 const Singlepost = () => {
@@ -18,7 +18,7 @@ const Singlepost = () => {
 
   return (
     <div className="singlepost">
-      {post.photo && ( <img className="singleimg" src="{post.photo}" alt="" />)}
+      {post.photo && <img className="singleimg" src="{post.photo}" alt="" />}
       <span className="singletitle">{post.title}</span>
 
       <span className="singlebtn">
@@ -27,7 +27,7 @@ const Singlepost = () => {
       </span>
 
       <span className="singleall">
-        {post.username}
+        Author :<Link to={`/?user=${post.username}`}>{post.username}</Link>
         <span className="singler">
           {new Date(post.createdAt).toDateString()}
         </span>

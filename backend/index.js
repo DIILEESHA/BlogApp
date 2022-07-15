@@ -15,7 +15,7 @@ app.use(express.json());
 app.use("/auth", authRoute);
 app.use("/users", userRoute);
 app.use("/posts", postRoute);
-app.use("/category", categoryRoute);
+app.use("/categories", categoryRoute);
 
 mongoose
   .connect(process.env.MONGO, { useNewUrlParser: true })
