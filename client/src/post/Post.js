@@ -1,6 +1,7 @@
 import "./post.css";
+import { Link } from "react-router-dom";
 
-const Post = () => {
+const Post = ({ post }) => {
   return (
     <div className="allpost">
       <img
@@ -9,19 +10,13 @@ const Post = () => {
         alt=""
       />
       <span className="postspan">Music Life</span>
-      <span className ="postpan1">Post Title</span>
-      <span className="posttimelapse">1 hour ago</span>
-      <p className="postpar">
-        Esse fugiat excepteur anim aliqua est amet cupidatat. Reprehenderit
-        voluptate est in ut enim sunt commodo Lorem. Consectetur officia mollit
-        cupidatat nostrud qui ad. Reprehenderit veniam do exercitation excepteur
-        laborum in voluptate. Incididunt laborum proident anim proident Lorem
-        aute aliquip commodo voluptate sint aute cupidatat dolore esse. Aliqua
-        cupidatat deserunt nulla ex duis officia Lorem ex fugiat veniam. Eu
-        eiusmod et amet veniam aliqua cillum ut adipisicing ea sit magna veniam.
-      </p>
-      
-      
+      <Link to={`/post/${post._id}`}>
+        <span className="postpan1">{post.title}</span>
+      </Link>
+      <span className="posttimelapse">
+        {new Date(post.createdAt).toDateString()}
+      </span>
+      <p className="postpar">{post.desc}</p>
     </div>
   );
 };
